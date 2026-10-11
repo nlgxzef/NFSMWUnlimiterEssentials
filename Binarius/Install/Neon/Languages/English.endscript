@@ -1,0 +1,31 @@
+if file_exists absolute Languages\English.bin
+do
+new negate Languages\English.bin
+
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Stock"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Red"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Green"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blue"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Yellow"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Aqua"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "White"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Coral"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lime"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Purple"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Gold"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Red Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Green Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blue Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Yellow Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Aqua Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "White Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Coral Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Lime Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Purple Pulse"
+add_or_update_string Languages\English.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Gold Pulse"
+
+delete Languages\English.bin
+else // do nothing
+end

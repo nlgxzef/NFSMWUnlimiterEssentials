@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Dutch.bin
+do
+new negate Languages\Dutch.bin
+
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Geen Neon"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rood"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Groen"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blauw"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Geel"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Aqua"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Wit"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Coral"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lime"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Paars"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Goud"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Rood Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Groen Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blauw Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Geel Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Aqua Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Wit Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Coral Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Lime Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Paars Pulse"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Goud Pulse"
+
+delete Languages\Dutch.bin
+else // do nothing
+end

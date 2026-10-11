@@ -1,0 +1,81 @@
+// Common (Extra) - Contains Neon and Tire parts
+
+append Install\_Common\Extra.endscript
+
+// ----------------------------------------------------------------------------
+
+// Paint
+combobox "Yes" "No" "Install Paint Pack?"
+
+"Yes"
+append Install\Paint\Paint.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Neon
+combobox "Yes" "No" "Install Neon Pack?"
+
+"Yes"
+append Install\Neon\Neon.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Wheels
+combobox "Yes" "No" "Install Wheels Pack?"
+
+"Yes"
+append Install\Wheels\Wheels.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// License Plates
+combobox "Yes" "No" "Install License Plates Pack?"
+
+"Yes"
+append Install\LicensePlates\LicensePlates.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Tires
+combobox "Yes" "No" "Install Tires Pack?"
+
+"Yes"
+append Install\Tires\Tires.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Brakes
+combobox "Yes" "No" "Install Brakes Pack?"
+
+"Yes"
+append Install\Brakes\Brakes.endscript
+
+"No"
+// do nothing
+
+end

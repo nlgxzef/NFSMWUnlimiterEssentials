@@ -1,0 +1,21 @@
+// Max Rim Size back to 20 inches
+static GLOBAL\GLOBALB.LZC CarTypeInfos WheelInnerRadiusMax 20
+
+// CARS
+if file_exists absolute "CARS\WHEELS\GEOMETRY.BIN.ULE.BACC"
+do
+move_file override absolute absolute "CARS\WHEELS\GEOMETRY.BIN.ULE.BACC" "CARS\WHEELS\GEOMETRY.BIN"
+else // do nothing
+end
+
+if file_exists absolute "CARS\WHEELS\TEXTURES.BIN.ULE.BACC"
+do
+move_file override absolute absolute "CARS\WHEELS\TEXTURES.BIN.ULE.BACC" "CARS\WHEELS\TEXTURES.BIN"
+else // do nothing
+end
+
+// CarParts
+import override GLOBAL\GLOBALB.LZC DBModelParts "Uninstall\Wheels\CarParts\WHEELS.bin"
+
+// scripts
+move_file override relative absolute "Uninstall\Wheels\scripts\UnlimiterData\_RimBrands.ini" "scripts\UnlimiterData\_RimBrands.ini"

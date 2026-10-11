@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Largest.bin
+do
+new negate Languages\Largest.bin
+
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Gloss (Beta)"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallic (Beta)"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Custom (Beta)"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Powder Coat (Beta)"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Powder Coat (Custom)"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Powder Coat (Unused)"
+
+delete Languages\Largest.bin
+else // do nothing
+end

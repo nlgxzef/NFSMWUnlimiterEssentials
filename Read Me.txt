@@ -1,0 +1,149 @@
+﻿NFS Most Wanted - Unlimiter Essentials
+v1.1.0.1337
+
+Unlimiter Source Code: https://github.com/nlgxzef/NFSMWUnlimiter/
+Wiki: https://github.com/nlgxzef/NFSMWUnlimiter/wiki/
+------------------------------------------------------------------------------------------------------------
+Description:
+
+NFSMW Unlimiter Essentials mod adds essential new car parts into the game and is designed to work with NFSMW Unlimiter.
+
+Features:
+* The mod contains various add-on part packs to tune your cars with.
+* All the packs are optional. So, if you have an alternative pack or don't want to install a specific one, you can choose to skip it while installing the mod.
+
+Paint Pack:
+* Adds paints from NFSMW Beta and Underground 2, along with their original light materials.
+* Body paints are added into 3 new categories.
+* Rim paints are added into 3 new categories.
+* Vinyl paints are listed in the same category as group switching isn't implemented for their respective screens.
+
+Neon Pack:
+* Adds neon colors from NFS Underground 2.
+
+Wheels Pack:
+* Adds new rims from NFS Carbon, along with these:
+    - Foose Speedster, Splitz and Nitrous Silver: Originally cut from NFS Carbon.
+	- Work Equip 03: Ported from NFS World.
+	- BBS RE595: Copied over 18" from BMW M3 GTR GT E46 ALMS and custom made other inner radius.
+* Configures tires on all models to use NFS Carbon style textures, to allow tire tuning.
+* (Optional) Changes max wheel inner size to 21 inches. The mod already contains 21 inch rim models.
+
+License Plates Pack:
+* Adds various, lore-friendly license plates.
+* (Optional) Changes default license plates of preset (Challenge Series, Bonus and Blacklist), traffic and police cars. Partially requires StockPartsHook from NFSMW Unlimiter.
+
+Brakes Pack:
+* Adds 3 different styles of brakes, originally present in game files and are leftovers from NFS Underground 2.
+* Adjusts the model positions to work more properly with NFS Most Wanted wheels.
+
+Tires Pack:
+* Adds 4 different tire styles: Stock, Retro, Carbon and Carbon Retro.
+
+Notes:
+- Paint and Wheels packs are recycled from a previously canceled mod project.
+- Neon Pack is straight up taken from Unlimiter v4.
+- Brakes Pack is straight up taken from Leftover Brakes Mod. The respective mod is now deprecated.
+- License Plates Pack is a slightly altered version of Better License Plates Mod. The respective mod is now deprecated.
+- The mod will keep getting updated with lore-friendly add-on parts and/or packs.
+
+Bonus:
+- Unlimiter Logo.png: You can add this logo on your mod preview to show that your mod utilizes Extra Customization features in the Unlimiter.
+
+------------------------------------------------------------------------------------------------------------
+Installation:
+
+1. Install NFSMW Unlimiter. (Compatible with v4.1 and up)
+   https://github.com/nlgxzef/NFSMWUnlimiter/releases
+   
+2. Run your game and save all your profiles at least once. This step is required to create Presitter data to prevent your customization records getting corrupted after adding parts.
+	! To be on the safe side, restart the game for each profile. Loading more than one profile in the same session may cause bugs with game's progression.
+	! If you're having trouble while loading the profiles, use NFSMW Extra Options to disable the checksum verification.
+	! If you have no profiles, or already have Presitter data for all your profiles, you can skip this step.
+	! If you don't care about getting corrupted customization records, you can also skip this step.
+
+3. Open the archive you downloaded and extract it anywhere.
+
+4. Install the script which contains essential car parts, string and texture data using Binarius: (Compatible with v2.10.4 and up)
+	4.1. Download and install the latest version of Binarius.
+	     https://github.com/nlgxzef/Binarius/releases
+	4.2. Run Binarius as administrator.
+	4.3. Select User Mode. (Tap/click the icon on top.)
+	4.4. Select the _NFSMW-UnlimiterEssentials-Binarius.endlauncher from the dialog and tap/click OK.
+	4.5. Select your game installation directory.
+	4.6. Binarius should show you a prompt to choose what to do. The options are explained below:
+		* Install / Upgrade: Installs the mod.
+		* Uninstall: Uninstalls the files added by the mod. 
+		    ! Doesn't remove textures and strings as they may get used by other mod(s). 
+		    ! Common, Neon and Tire packs cannot be uninstalled as they are/were a core component of ULv4.
+		* Change Maximum Wheel Inner Size: Changes maximum rim size to 20 or 21 inches for all cars.
+		! If you're unsure, choose Install / Upgrade (Override).
+
+	4.7. Binarius will ask if you want to install each pack.
+	    ! If you don't want to install a specific pack or you already have an alternative to that one, you can choose "No.".
+		! This mod doesn't ensure compatibility with other part pack mods. If necessary, you can get support from the mod developers or Unlimiter Discord server.
+
+	4.8. Wait while Unlimiter Essentials mod is getting installed. When the installation is done, Binarius will inform you about the installation; ask you to save the files and launch the game.
+	    ! In the first dialog, you must choose "Yes" to save the files.
+		! In the second dialog, choose "Yes" if you want to run the game.
+		* If there are any errors, please check the log file for details. They are usually safe to ignore. 
+		! If you're unsure, you can always ask for help in the Unlimiter Discord server.
+		
+	4.9. Quit the tool.
+	
+5. You're good to go!
+
+------------------------------------------------------------------------------------------------------------
+Known Issues:
+
+! 21 inch wheels will not show up for the add-on cars installed after this mod.
+    Solution: Relaunch the mod installer via Binarius and choose "Change Maximum Wheel Inner Size" option. From the pop up, select "21" to have 21 inch rims on your new car(s).
+
+! Brakes, Neon, Tires and License Plates categories (at least one of them) not available for a specific car.
+    Solution: Check if your car has a config file in scripts\UnlimiterData directory. If it has one (CARNAME.ini), add/change the values below to enable the menu options for these parts:
+	    [Parts]
+		Brakes = 1
+		
+		[Visual]
+		Tires = 1
+		LicensePlate = 1
+		Neon = 1
+		
+		! If your car doesn't have a specific config file, make the changes explained above in the _General.ini instead or create a new file (CARNAME.ini) with them.
+
+------------------------------------------------------------------------------------------------------------
+Credits:
+
+Paint Pack: 
+- elaymm4, Red_Fire & trackmaniamatt: Porting light materials and paint parts from PS2 Demo and Underground 2. (Data taken from Beta Content Mod.)
+- nlgxzef: New paint parts utilizing unused rim paint light materials, Unlimiter v4+ compatibility & light material fix for rim paints 207-210.
+
+Neon Pack:
+- nlgxzef
+
+Wheels Pack:
+- 379Felipe: Foose Speedster, Splitz & Nitrous Silver + Work Equip 03
+- nlgxzef: Backporting models from NFS Carbon, BBS RE595, Unlimiter v4+ compatibility.
+
+Brakes Pack:
+- nlgxzef
+
+License Plates Pack:
+- nlgxzef
+
+General / Common:
+
+Main Developer:
+- nlgxzef
+
+Special thanks to:
+- EA Black Box: for all the goodness.
+- Adobe: Photoshop.
+- The Blender Foundation: Blender.
+- CiPHER: TexconvGUI.
+- MaxHwoy (Binary), nlgxzef, rx, avail, Sh2dow, NI240SX & 379Felipe: Binarius.
+...and others (if I've forgotten any) for other stuff.
+
+------------------------------------------------------------------------------------------------------------
+See ya!
+©2026 nlgxzef - No rights reserved. ;)

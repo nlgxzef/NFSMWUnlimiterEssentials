@@ -1,0 +1,31 @@
+if file_exists absolute Languages\German.bin
+do
+new negate Languages\German.bin
+
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Kein Neon"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rot"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Grün"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blau"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Gelb"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Aqua"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Weiß"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Korallfarben"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Limone"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Violett"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Gold"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Rot Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Grün Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blau Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Gelb Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Aqua Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Weiß Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Korallfarben Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Limone Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Violett Pulsierend"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Gold Pulsierend"
+
+delete Languages\German.bin
+else // do nothing
+end

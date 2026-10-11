@@ -1,0 +1,14 @@
+if file_exists absolute Languages\French.bin
+do
+new negate Languages\French.bin
+
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Brillante (Bêta)"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Métallisée (Bêta)"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Personnalisée (Bêta)"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "En poudre (Bêta)"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "En poudre (Personnalisée)"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "En poudre (Inutilisée)"
+
+delete Languages\French.bin
+else // do nothing
+end

@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Labels.bin
+do
+new negate Languages\Labels.bin
+
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "PN_TIRE_01"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "PN_TIRE_02"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "PN_TIRE_03"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "PN_TIRE_04"
+
+delete Languages\Labels.bin
+else // do nothing
+end

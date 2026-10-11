@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Swedish.bin
+do
+new negate Languages\Swedish.bin
+
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Ingen Neon"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Röd"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Grön"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blå"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Gul"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Turkos"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Vit"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Korall"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lime"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Lila"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Guld"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Röd Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Grön Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blå Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Gul Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Turkos Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Vit Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Korall Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Lime Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Lila Puls"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Guld Puls"
+
+delete Languages\Swedish.bin
+else // do nothing
+end

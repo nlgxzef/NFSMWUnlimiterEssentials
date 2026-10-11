@@ -1,0 +1,12 @@
+if file_exists absolute Languages\French.bin
+do
+new negate Languages\French.bin
+
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Stock"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Rétro"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Carbon"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Carbon Rétro"
+
+delete Languages\French.bin
+else // do nothing
+end

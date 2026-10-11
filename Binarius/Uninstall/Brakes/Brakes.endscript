@@ -1,0 +1,9 @@
+// CARS
+if file_exists absolute "CARS\BRAKES\GEOMETRY.BIN.ULE.BACC"
+do
+move_file override absolute absolute "CARS\BRAKES\GEOMETRY.BIN.ULE.BACC" "CARS\BRAKES\GEOMETRY.BIN"
+else // do nothing
+end
+
+// CarParts
+import override Global\GlobalB.lzc DBModelParts "Uninstall\Brakes\CarParts\BRAKES.BIN"

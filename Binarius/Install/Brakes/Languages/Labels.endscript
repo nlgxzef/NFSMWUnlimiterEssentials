@@ -1,0 +1,35 @@
+if file_exists absolute Languages\Labels.bin
+do
+new negate Languages\Labels.bin
+
+if string_exists Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_0
+do
+update_string Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_0 Text "PN_BRAKE_0"
+else
+add_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_BRAKE_0 "PN_BRAKE_0"
+end
+
+if string_exists Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_1
+do
+update_string Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_1 Text "PN_BRAKE_1"
+else
+add_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_BRAKE_1 "PN_BRAKE_1"
+end
+
+if string_exists Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_2
+do
+update_string Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_2 Text "PN_BRAKE_2"
+else
+add_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_BRAKE_2 "PN_BRAKE_2"
+end
+
+if string_exists Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_3
+do
+update_string Languages\Labels.bin STRBlocks GLOBAL PN_BRAKE_3 Text "PN_BRAKE_3"
+else
+add_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_BRAKE_3 "PN_BRAKE_3"
+end
+
+delete Languages\Labels.bin
+else // do nothing
+end

@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Danish.bin
+do
+new negate Languages\Danish.bin
+
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Ingen Neon"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rød"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Grøn"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blå"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Gul"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Turkisblå"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Hvid"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Koralrød"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lime"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Lilla"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Guld"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Rød - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Grøn - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blå - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Gul - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Turkisblå - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Hvid - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Koralrød - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Lime - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Lilla - Pulserende"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Guld - Pulserende"
+
+delete Languages\Danish.bin
+else // do nothing
+end

@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Italian.bin
+do
+new negate Languages\Italian.bin
+
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Nessun Neon"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rosso"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Verde"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Blu"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Giallo"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Azzurro"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Bianco"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Corallo"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Verde Limone"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Viola"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Oro"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Rosso Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Verde Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Blu Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Giallo Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Azzurro Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Bianco Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Corallo Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Verde Limone Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Viola Intermittente"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Oro Intermittente"
+
+delete Languages\Italian.bin
+else // do nothing
+end

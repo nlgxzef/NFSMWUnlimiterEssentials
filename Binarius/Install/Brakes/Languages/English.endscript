@@ -1,0 +1,35 @@
+if file_exists absolute Languages\English.bin
+do
+new negate Languages\English.bin
+
+if string_exists Languages\English.bin STRBlocks GLOBAL PN_BRAKE_0
+do
+update_string Languages\English.bin STRBlocks GLOBAL PN_BRAKE_0 Text "Underground 2 Style 0"
+else
+add_string Languages\English.bin STRBlocks GLOBAL AUTO PN_BRAKE_0 "Underground 2 Style 0"
+end
+
+if string_exists Languages\English.bin STRBlocks GLOBAL PN_BRAKE_1
+do
+update_string Languages\English.bin STRBlocks GLOBAL PN_BRAKE_1 Text "Underground 2 Style 1"
+else
+add_string Languages\English.bin STRBlocks GLOBAL AUTO PN_BRAKE_1 "Underground 2 Style 1"
+end
+
+if string_exists Languages\English.bin STRBlocks GLOBAL PN_BRAKE_2
+do
+update_string Languages\English.bin STRBlocks GLOBAL PN_BRAKE_2 Text "Underground 2 Style 2"
+else
+add_string Languages\English.bin STRBlocks GLOBAL AUTO PN_BRAKE_2 "Underground 2 Style 2"
+end
+
+if string_exists Languages\English.bin STRBlocks GLOBAL PN_BRAKE_3
+do
+update_string Languages\English.bin STRBlocks GLOBAL PN_BRAKE_3 Text "Underground 2 Style 3"
+else
+add_string Languages\English.bin STRBlocks GLOBAL AUTO PN_BRAKE_3 "Underground 2 Style 3"
+end
+
+delete Languages\English.bin
+else // do nothing
+end

@@ -1,0 +1,16 @@
+version 2.10.4
+
+watermark ""
+
+combobox "Install / Upgrade" "Uninstall" "Change Maximum Wheel Inner Size" "NFSMW Unlimiter Essentials"
+
+"Install / Upgrade"
+append _Options\_Install.endscript
+
+"Uninstall"
+append _Options\_Uninstall.endscript
+
+"Change Maximum Wheel Inner Size"
+append _Options\WheelSize.endscript
+
+end

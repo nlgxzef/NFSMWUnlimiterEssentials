@@ -1,0 +1,31 @@
+if file_exists absolute Languages\French.bin
+do
+new negate Languages\French.bin
+
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Aucun Neon"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rouge"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Vert"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Bleu"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Jaune"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Turquoise"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Blanc"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Corail"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Citron"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Violet"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Dore"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Rouge Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Vert Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Bleu Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Jaune Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Turquoise Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Blanc Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Corail Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Citron Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Violet Clignotant"
+add_or_update_string Languages\French.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Dore Clignotant"
+
+delete Languages\French.bin
+else // do nothing
+end

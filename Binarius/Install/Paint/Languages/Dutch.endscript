@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Dutch.bin
+do
+new negate Languages\Dutch.bin
+
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Glanslak (Beta)"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallic (Beta)"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Aangepast (Beta)"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Poedercoating (Beta)"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Poedercoating (Aangepast)"
+add_or_update_string Languages\Dutch.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Poedercoating (Ongebruikt)"
+
+delete Languages\Dutch.bin
+else // do nothing
+end

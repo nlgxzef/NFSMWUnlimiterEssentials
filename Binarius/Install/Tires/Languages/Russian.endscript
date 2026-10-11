@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Russian.bin
+do
+new negate Languages\Russian.bin
+
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Акции"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Ретро"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Карбон"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Карбон Ретро"
+
+delete Languages\Russian.bin
+else // do nothing
+end

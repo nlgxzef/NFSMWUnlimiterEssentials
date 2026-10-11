@@ -1,0 +1,9 @@
+Changelog: (+ Addition, * Change, ! Attention, - Deletion)
+
+v1.1.0.1337:
+! Only compatible with NFSMW Unlimiter v4.1 and up!
++ Added names for new paint groups.
++ Added new paint groups for unused, pearl and beta rim paints.
+
+v1.0.0.1337:
++ Initial release.

@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Danish.bin
+do
+new negate Languages\Danish.bin
+
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Blank (Beta)"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallic (Beta)"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Brugerdefinerede (Beta)"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Pulverbelægning (Beta)"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Pulverbelægning (Brugerdefinerede)"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Pulverbelægning (Ubrugt)"
+
+delete Languages\Danish.bin
+else // do nothing
+end

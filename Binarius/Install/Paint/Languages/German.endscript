@@ -1,0 +1,14 @@
+if file_exists absolute Languages\German.bin
+do
+new negate Languages\German.bin
+
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Hochglanz (Beta)"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallic (Beta)"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Spezial (Beta)"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Pulverbeschichtung (Beta)"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Pulverbeschichtung (Spezial)"
+add_or_update_string Languages\German.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Pulverbeschichtung (Unbenutzt)"
+
+delete Languages\German.bin
+else // do nothing
+end

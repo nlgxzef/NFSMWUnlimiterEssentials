@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Italian.bin
+do
+new negate Languages\Italian.bin
+
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Lucida (Beta)"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallizzata (Beta)"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Personalizzata (Beta)"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Vernice a polvere (Beta)"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Vernice a polvere (Personalizzata)"
+add_or_update_string Languages\Italian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Vernice a polvere (Inutilizzata)"
+
+delete Languages\Italian.bin
+else // do nothing
+end

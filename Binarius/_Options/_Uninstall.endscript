@@ -1,0 +1,53 @@
+// Common, Neon and Tire packs cannot be uninstalled as they are/were a core component of ULv4.
+
+// ----------------------------------------------------------------------------
+
+// Paint
+combobox "Yes" "No" "Uninstall Paint Pack?"
+
+"Yes"
+append Uninstall\Paint\Paint.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Wheels
+combobox "Yes" "No" "Uninstall Wheels Pack?"
+
+"Yes"
+append Uninstall\Wheels\Wheels.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// License Plates
+combobox "Yes" "No" "Uninstall License Plates Pack?"
+
+"Yes"
+append Uninstall\LicensePlates\LicensePlates.endscript
+
+"No"
+// do nothing
+
+end
+
+// ----------------------------------------------------------------------------
+
+// Brakes
+combobox "Yes" "No" "Uninstall Brakes Pack?"
+
+"Yes"
+append Uninstall\Brakes\Brakes.endscript
+
+"No"
+// do nothing
+
+end

@@ -1,0 +1,18 @@
+// SlotTypes
+update_collection GLOBAL\GLOBALB.LZC SlotTypes BRAKELIGHT SlotMainOverride EXTRA
+
+// Languages
+append Install\Neon\Languages\Danish.endscript
+append Install\Neon\Languages\Dutch.endscript
+append Install\Neon\Languages\English.endscript
+append Install\Neon\Languages\Finnish.endscript
+append Install\Neon\Languages\French.endscript
+append Install\Neon\Languages\German.endscript
+append Install\Neon\Languages\Italian.endscript
+append Install\Neon\Languages\Labels.endscript
+append Install\Neon\Languages\Largest.endscript
+append Install\Neon\Languages\Mexican.endscript
+append Install\Neon\Languages\Polish.endscript
+append Install\Neon\Languages\Russian.endscript
+append Install\Neon\Languages\Spanish.endscript
+append Install\Neon\Languages\Swedish.endscript

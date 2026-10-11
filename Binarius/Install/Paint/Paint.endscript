@@ -1,0 +1,118 @@
+// Car Parts
+import override GLOBAL\GLOBALB.LZC DBModelParts "Install\Paint\CarParts\PAINT.bin"
+
+// Beta Light Materials
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_CHROME_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_GLOSS_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_GUNMETAL_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_MAGSILVER_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_MET_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\USER_RIMS_SILVERGLOSS_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_1_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_2_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_3_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_4_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_5_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_6_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_7_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_8_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_9_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_10_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_11_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_12_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_13_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_14_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_15_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_16_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_17_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_18_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_19_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\CUSTOMPAINT_20_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTBLACK_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTBLUE_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGOLD_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGRAY_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGREEN_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTRED_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTSILVER_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTYELLOW_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL1_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL2_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL3_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL4_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL5_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL6_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL7_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL8_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL9_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTBLACK_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTBLUE_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTGRAY_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTGREEN_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTORANGE_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTPINK_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTRED_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTWHITE_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\REGPAINTYELLOW_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL1_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL2_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL3_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL4_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL5_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL6_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL7_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL8_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\RIMPEARL9_BETA.bin"
+
+// NFSU2 Light Materials
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINT_1.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINT_2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGREEN_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTRED_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTSILVER_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTYELLOW_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTBLACK_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTBLUE_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGOLD_UG2.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\METPAINTGRAY_UG2.bin"
+
+// Rims
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL_RIM_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL1_RIM_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL2_RIM_BETA.bin"
+import override GLOBAL\GLOBALB.LZC Materials "Install\Paint\LightMaterials\PEARL3_RIM_BETA.bin"
+
+// scripts
+if directory_exists absolute "scripts\UnlimiterData\PaintGroups"
+do // nothing
+else
+create_folder absolute "scripts\UnlimiterData\PaintGroups"
+end
+
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\RIM.ini" "scripts\UnlimiterData\PaintGroups\RIM.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\VINYL.ini" "scripts\UnlimiterData\PaintGroups\VINYL.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\GLOSS_BETA.ini" "scripts\UnlimiterData\PaintGroups\GLOSS_BETA.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\METAL_BETA.ini" "scripts\UnlimiterData\PaintGroups\METAL_BETA.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\PEARL_BETA.ini" "scripts\UnlimiterData\PaintGroups\PEARL_BETA.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\RIM_BETA.ini" "scripts\UnlimiterData\PaintGroups\RIM_BETA.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\RIM_CUSTOM.ini" "scripts\UnlimiterData\PaintGroups\RIM_CUSTOM.ini"
+move_file override relative absolute "Install\Paint\scripts\UnlimiterData\PaintGroups\RIM_UNUSED.ini" "scripts\UnlimiterData\PaintGroups\RIM_UNUSED.ini"
+
+// Languages
+append Install\Paint\Languages\Danish.endscript
+append Install\Paint\Languages\Dutch.endscript
+append Install\Paint\Languages\English.endscript
+append Install\Paint\Languages\Finnish.endscript
+append Install\Paint\Languages\French.endscript
+append Install\Paint\Languages\German.endscript
+append Install\Paint\Languages\Italian.endscript
+append Install\Paint\Languages\Labels.endscript
+append Install\Paint\Languages\Largest.endscript
+append Install\Paint\Languages\Mexican.endscript
+append Install\Paint\Languages\Polish.endscript
+append Install\Paint\Languages\Russian.endscript
+append Install\Paint\Languages\Spanish.endscript
+append Install\Paint\Languages\Swedish.endscript

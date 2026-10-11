@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Labels.bin
+do
+new negate Languages\Labels.bin
+
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "CP_FILTER_GLOSS_BETA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "CP_FILTER_METALLIC_BETA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "CP_FILTER_PEARL_BETA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "CP_FILTER_RIM_BETA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "CP_FILTER_RIM_CUSTOM"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "CP_FILTER_RIM_UNUSED"
+
+delete Languages\Labels.bin
+else // do nothing
+end

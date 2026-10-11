@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Finnish.bin
+do
+new negate Languages\Finnish.bin
+
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Stock"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Retro"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Carbon"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Carbon Retro"
+
+delete Languages\Finnish.bin
+else // do nothing
+end

@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Polish.bin
+do
+new negate Languages\Polish.bin
+
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Błyszczący (Beta)"
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metaliczny (Beta)"
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Niestandardowy (Beta)"
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Kolor (Beta)"
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Kolor (Niestandardowy)"
+add_or_update_string Languages\Polish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Kolor (Nieużywany)"
+
+delete Languages\Polish.bin
+else // do nothing
+end

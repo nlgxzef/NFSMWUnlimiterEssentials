@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Finnish.bin
+do
+new negate Languages\Finnish.bin
+
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Ei Neon"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Punainen"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Vihreä"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Sininen"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Keltainen"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Aqua"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Valkoinen"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Koralli"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lime"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Violetti"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Kulta"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Punainen Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Vihreä Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Sininen Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Keltainen Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Aqua Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Valkoinen Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Koralli Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Magenta Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Lime Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Violetti Pulssi"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Kulta Pulssi"
+
+delete Languages\Finnish.bin
+else // do nothing
+end

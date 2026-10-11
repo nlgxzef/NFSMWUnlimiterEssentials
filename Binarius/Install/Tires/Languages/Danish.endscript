@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Danish.bin
+do
+new negate Languages\Danish.bin
+
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Stock"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Retro"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Carbon"
+add_or_update_string Languages\Danish.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Carbon Retro"
+
+delete Languages\Danish.bin
+else // do nothing
+end

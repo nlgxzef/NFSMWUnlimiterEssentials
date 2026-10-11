@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Largest.bin
+do
+new negate Languages\Largest.bin
+
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Stock"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Retro"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Carbon"
+add_or_update_string Languages\Largest.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Carbon Retro"
+
+delete Languages\Largest.bin
+else // do nothing
+end

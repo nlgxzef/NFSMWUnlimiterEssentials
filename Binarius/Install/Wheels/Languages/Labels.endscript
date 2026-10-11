@@ -1,0 +1,17 @@
+if file_exists absolute Languages\Labels.bin
+do
+new negate Languages\Labels.bin
+
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_GIOVANNA "CO_RIM_BRAND_GIOVANNA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_IFORGED "CO_RIM_BRAND_IFORGED"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_WORK "CO_RIM_BRAND_WORK"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_TENZO "CO_RIM_BRAND_TENZO"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_AR "CO_RIM_BRAND_AR"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_CL "CO_RIM_BRAND_CL"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_HRE "CO_RIM_BRAND_HRE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_TSW "CO_RIM_BRAND_TSW"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_FOOSE "CO_RIM_BRAND_FOOSE"
+
+delete Languages\Labels.bin
+else // do nothing
+end

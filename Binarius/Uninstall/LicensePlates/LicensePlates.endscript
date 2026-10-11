@@ -1,0 +1,101 @@
+// CarParts
+import override Global\GlobalB.lzc DBModelParts "Uninstall\LicensePlates\CarParts\PLATES.BIN"
+
+// Textures (remove own TPK)
+if collection_exists GLOBAL\GLOBALB.LZC TPKBlocks LICENSEPLATES
+do
+remove_collection GLOBAL\GLOBALB.LZC TPKBlocks LICENSEPLATES
+else
+// do nothing
+end
+
+// Revert presets
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL10 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL11 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL12 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL13 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL14 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL15 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL2 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL3 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL4 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL5 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL6 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL7 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL8 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BL9 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BONUS_C6R LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BONUS_GT2 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides BONUS_SL65 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_997S LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_C6R LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_CAMARO LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_CORVETTE LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_ELISE LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_GT2 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_GTRSTREET LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_SL500 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_SL65 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CE_SUPRA LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides COPGTOPURSUIT LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides COP_CROSS LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_01 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_02 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_03 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_04 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_05 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_06 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_07 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_08 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_09 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_10 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_11 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_12 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_13 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_14 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_15 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_16 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_17 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_18 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_19 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_20 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_21 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_22 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_23 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_24 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_25 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_26 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_27 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_28 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_29 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_30 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_31 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_32 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_33 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_34 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_35 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_COPGTO LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_HENCH LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_MINIVAN LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_PIZZA LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CS_CAR_TAXI LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides CASTROLGT LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides E3_DEMO_RX8 LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides E3_DEMO_BMW LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides RAZORMUSTANG LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides STARKY_HUTCH_EVO_ROG LicensePlate LICENSE_PLATE_STYLE01
+update_collection GLOBAL\GLOBALB.LZC PresetRides OPM_MUSTANG_BOSS LicensePlate LICENSE_PLATE_STYLE01
+erase_file absolute "scripts\UnlimiterData\COPGHOST.ini"
+erase_file absolute "scripts\UnlimiterData\COPGTO.ini"
+erase_file absolute "scripts\UnlimiterData\COPGTOGHOST.ini"
+erase_file absolute "scripts\UnlimiterData\COPMIDSIZE.ini"
+erase_file absolute "scripts\UnlimiterData\COPMIDSIZEINT.ini"
+erase_file absolute "scripts\UnlimiterData\COPSPORT.ini"
+erase_file absolute "scripts\UnlimiterData\COPSPORTGHOST.ini"
+erase_file absolute "scripts\UnlimiterData\COPSPORTHENCH.ini"
+erase_file absolute "scripts\UnlimiterData\COPSUV.ini"
+erase_file absolute "scripts\UnlimiterData\COPSUVL.ini"
+erase_file absolute "scripts\UnlimiterData\PIZZA.ini"
+erase_file absolute "scripts\UnlimiterData\TAXI.ini"
+erase_file absolute "scripts\UnlimiterData\TRAFPIZZA.ini"
+erase_file absolute "scripts\UnlimiterData\TRAFTAXI.ini"

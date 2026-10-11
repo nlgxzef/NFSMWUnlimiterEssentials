@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Spanish.bin
+do
+new negate Languages\Spanish.bin
+
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Satinado (Beta)"
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metalizado (Beta)"
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Personalizado (Beta)"
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Capa pulverizada (Beta)"
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Capa pulverizada (Personalizado)"
+add_or_update_string Languages\Spanish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Capa pulverizada (No usado)"
+
+delete Languages\Spanish.bin
+else // do nothing
+end

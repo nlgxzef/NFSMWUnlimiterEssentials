@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Finnish.bin
+do
+new negate Languages\Finnish.bin
+
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Kiiltävä (Beeta)"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallinhohtoinen (Beeta)"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Mukautettu (Beeta)"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Pulverimaali (Beeta)"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Pulverimaali (Mukautettu)"
+add_or_update_string Languages\Finnish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Pulverimaali (Käyttämätön)"
+
+delete Languages\Finnish.bin
+else // do nothing
+end

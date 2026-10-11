@@ -1,0 +1,17 @@
+if file_exists absolute Languages\Swedish.bin
+do
+new negate Languages\Swedish.bin
+
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_GIOVANNA "Giovanna"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_IFORGED "IFORGED"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_WORK "Work"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_TENZO "Tenzo"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_AR "American Racing"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_CL "Center-Line"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_HRE "HRE"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_TSW "TSW"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CO_RIM_BRAND_FOOSE "Foose"
+
+delete Languages\Swedish.bin
+else // do nothing
+end

@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Swedish.bin
+do
+new negate Languages\Swedish.bin
+
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Klarlack (Beta)"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Metallic (Beta)"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Special (Beta)"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Pulverlack (Beta)"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Pulverlack (Special)"
+add_or_update_string Languages\Swedish.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Pulverlack (Oanvänd)"
+
+delete Languages\Swedish.bin
+else // do nothing
+end

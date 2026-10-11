@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Russian.bin
+do
+new negate Languages\Russian.bin
+
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Нет неон"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Красный"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Зеленый"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Синий"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Желтый"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Аква"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Белый"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "коралловый"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "магента"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Лайм"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Пурпурный"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Золото"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Красный Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Зеленый Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Синий Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Желтый Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Аква Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Белый Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "коралловый Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "магента Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Лайм Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Пурпурный Пульс"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Золото Пульс"
+
+delete Languages\Russian.bin
+else // do nothing
+end

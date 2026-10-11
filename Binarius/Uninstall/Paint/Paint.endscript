@@ -1,0 +1,52 @@
+// Car Parts
+import override GLOBAL\GLOBALB.LZC DBModelParts "Uninstall\Paint\CarParts\PAINT.bin"
+
+// scripts
+if directory_exists absolute "scripts\UnlimiterData\PaintGroups"
+do
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\GLOSS_BETA.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\GLOSS_BETA.ini"
+else
+// do nothing
+end
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\METAL_BETA.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\METAL_BETA.ini"
+else
+// do nothing
+end
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\PEARL_BETA.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\PEARL_BETA.ini"
+else
+// do nothing
+end
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\RIM_BETA.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\RIM_BETA.ini"
+else
+// do nothing
+end
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\RIM_CUSTOM.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\RIM_CUSTOM.ini"
+else
+// do nothing
+end
+
+if file_exists absolute "scripts\UnlimiterData\PaintGroups\RIM_UNUSED.ini"
+do
+erase_file absolute "scripts\UnlimiterData\PaintGroups\RIM_UNUSED.ini"
+else
+// do nothing
+end
+
+else
+// do nothing
+end

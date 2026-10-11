@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Mexican.bin
+do
+new negate Languages\Mexican.bin
+
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "Sin Neón"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_RED "Rojo"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "Verde"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "Azul"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "Amarillo"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "Aguamarina"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "Blanco"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "Coral"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "Magenta"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "Lima"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "Púrpura"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "Dorado"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "Intermittente Rojo"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "Intermittente Verde"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "Intermittente Azul"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "Intermittente Amarillo"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "Intermittente Aguamarina"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "Intermittente Blanco"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "Intermittente Coral"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "Intermittente Magenta"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "Intermittente Lima"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "Intermittente Púrpura"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "Intermittente Dorado"
+
+delete Languages\Mexican.bin
+else // do nothing
+end

@@ -1,0 +1,14 @@
+if file_exists absolute Languages\Russian.bin
+do
+new negate Languages\Russian.bin
+
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_GLOSS_BETA "Глянец (Бета)"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_METALLIC_BETA "Металлик (Бета)"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_PEARL_BETA "Специальный (Бета)"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_BETA "Порошковое покрытие (Бета)"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_CUSTOM "Порошковое покрытие (Специальный)"
+add_or_update_string Languages\Russian.bin STRBlocks GLOBAL AUTO CP_FILTER_RIM_UNUSED "Порошковое покрытие (Неиспользованный)"
+
+delete Languages\Russian.bin
+else // do nothing
+end

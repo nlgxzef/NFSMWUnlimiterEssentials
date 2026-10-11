@@ -1,0 +1,10 @@
+// Max Rim Size Selection
+combobox "_20" "_21" "Choose maximum wheel inner radius (inches)"
+
+"_20"
+static GLOBAL\GLOBALB.LZC CarTypeInfos WheelInnerRadiusMax 20
+
+"_21"
+static GLOBAL\GLOBALB.LZC CarTypeInfos WheelInnerRadiusMax 21
+
+end

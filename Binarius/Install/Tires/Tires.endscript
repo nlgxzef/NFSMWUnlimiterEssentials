@@ -1,0 +1,18 @@
+// SlotTypes
+update_collection GLOBAL\GLOBALB.LZC SlotTypes HEADLIGHT SlotMainOverride EXTRA
+
+// Languages
+append Install\Tires\Languages\Danish.endscript
+append Install\Tires\Languages\Dutch.endscript
+append Install\Tires\Languages\English.endscript
+append Install\Tires\Languages\Finnish.endscript
+append Install\Tires\Languages\French.endscript
+append Install\Tires\Languages\German.endscript
+append Install\Tires\Languages\Italian.endscript
+append Install\Tires\Languages\Labels.endscript
+append Install\Tires\Languages\Largest.endscript
+append Install\Tires\Languages\Mexican.endscript
+append Install\Tires\Languages\Polish.endscript
+append Install\Tires\Languages\Russian.endscript
+append Install\Tires\Languages\Spanish.endscript
+append Install\Tires\Languages\Swedish.endscript

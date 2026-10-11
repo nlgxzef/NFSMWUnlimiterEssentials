@@ -1,0 +1,58 @@
+// SlotTypes
+update_collection GLOBAL\GLOBALB.LZC SlotTypes FRONT_BRAKE PrimaryAnimation CARANIM_NONE
+update_collection GLOBAL\GLOBALB.LZC SlotTypes FRONT_BRAKE SlotMainOverride BRAKES
+update_collection GLOBAL\GLOBALB.LZC SlotTypes FRONT_BRAKE SlotStockOverride ""
+
+update_collection GLOBAL\GLOBALB.LZC SlotTypes REAR_BRAKE PrimaryAnimation CARANIM_NONE
+update_collection GLOBAL\GLOBALB.LZC SlotTypes REAR_BRAKE SlotMainOverride BRAKES
+update_collection GLOBAL\GLOBALB.LZC SlotTypes REAR_BRAKE SlotStockOverride ""
+
+// Cars
+if file_exists absolute "CARS\BRAKES\GEOMETRY.BIN.ULE.BACC"
+do // nothing
+else
+move_file override absolute absolute "CARS\BRAKES\GEOMETRY.BIN" "CARS\BRAKES\GEOMETRY.BIN.ULE.BACC"
+end
+
+move_file override relative absolute "Install\Brakes\Cars\BRAKES\GEOMETRY.BIN" "CARS\BRAKES\GEOMETRY.BIN"
+
+// CarParts
+import override Global\GlobalB.lzc DBModelParts "Install\Brakes\CarParts\BRAKES.BIN"
+
+// Languages
+append Install\Brakes\Languages\Danish.endscript
+append Install\Brakes\Languages\Dutch.endscript
+append Install\Brakes\Languages\English.endscript
+append Install\Brakes\Languages\Finnish.endscript
+append Install\Brakes\Languages\French.endscript
+append Install\Brakes\Languages\German.endscript
+append Install\Brakes\Languages\Italian.endscript
+append Install\Brakes\Languages\Labels.endscript
+append Install\Brakes\Languages\Largest.endscript
+append Install\Brakes\Languages\Mexican.endscript
+append Install\Brakes\Languages\Polish.endscript
+append Install\Brakes\Languages\Russian.endscript
+append Install\Brakes\Languages\Spanish.endscript
+append Install\Brakes\Languages\Swedish.endscript
+
+// Textures
+bind_textures synchronize Global\GlobalB.lzc TPKBlocks GLOBALTEXTURES Install\Brakes\GlobalTextures
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL RenderingOrder 0
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL_LEFT AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL_LEFT AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_GLOBAL_LEFT RenderingOrder 0
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE00 AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE00 AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE00 RenderingOrder 0
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE01 AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE01 AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE01 RenderingOrder 0
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE02 AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE02 AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE02 RenderingOrder 0
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE03 AlphaBlendType TEXBLEND_SRCCOPY
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE03 AlphaUsageType TEXUSAGE_PUNCHTHRU
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE03 ApplyAlphaSort 1
+update_texture GLOBAL\GLOBALB.LZC TPKBlocks GLOBALTEXTURES BRAKE_STYLE03 RenderingOrder 0

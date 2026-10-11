@@ -1,0 +1,12 @@
+if file_exists absolute Languages\Mexican.bin
+do
+new negate Languages\Mexican.bin
+
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_TIRE_01 "Stock"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_TIRE_02 "Retro"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_TIRE_03 "Carbono"
+add_or_update_string Languages\Mexican.bin STRBlocks GLOBAL AUTO PN_TIRE_04 "Carbono Retro"
+
+delete Languages\Mexican.bin
+else // do nothing
+end

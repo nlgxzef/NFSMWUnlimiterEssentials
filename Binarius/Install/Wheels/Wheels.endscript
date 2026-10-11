@@ -1,0 +1,49 @@
+// Max Rim Size Selection
+append _Options\WheelSize.endscript
+
+// CARS
+if file_exists absolute "CARS\WHEELS\GEOMETRY.BIN.ULE.BACC"
+do // nothing
+else
+move_file override absolute absolute "CARS\WHEELS\GEOMETRY.BIN" "CARS\WHEELS\GEOMETRY.BIN.ULE.BACC"
+end
+
+if file_exists absolute "CARS\WHEELS\TEXTURES.BIN.ULE.BACC"
+do // nothing
+else
+move_file override absolute absolute "CARS\WHEELS\TEXTURES.BIN" "CARS\WHEELS\TEXTURES.BIN.ULE.BACC"
+end
+
+move_file override relative absolute "Install\Wheels\CARS\WHEELS\GEOMETRY.BIN" "CARS\WHEELS\GEOMETRY.BIN"
+move_file override relative absolute "Install\Wheels\CARS\WHEELS\TEXTURES.BIN" "CARS\WHEELS\TEXTURES.BIN"
+
+// CarParts
+import override GLOBAL\GLOBALB.LZC DBModelParts "Install\Wheels\CarParts\WHEELS.bin"
+
+// Languages
+append Install\Wheels\Languages\Danish.endscript
+append Install\Wheels\Languages\Dutch.endscript
+append Install\Wheels\Languages\English.endscript
+append Install\Wheels\Languages\Finnish.endscript
+append Install\Wheels\Languages\French.endscript
+append Install\Wheels\Languages\German.endscript
+append Install\Wheels\Languages\Italian.endscript
+append Install\Wheels\Languages\Labels.endscript
+append Install\Wheels\Languages\Largest.endscript
+append Install\Wheels\Languages\Mexican.endscript
+append Install\Wheels\Languages\Polish.endscript
+append Install\Wheels\Languages\Russian.endscript
+append Install\Wheels\Languages\Spanish.endscript
+append Install\Wheels\Languages\Swedish.endscript
+
+// Textures
+if collection_exists FrontEnd\FrontB.lzc TPKBlocks DEFAULT
+do
+update_collection FrontEnd\FrontB.lzc TPKBlocks DEFAULT CollectionName FRONTENDTEXTURES
+else // do nothing
+end
+
+bind_textures negate FRONTEND\FRONTB.LZC TPKBlocks FRONTENDTEXTURES "Install\Wheels\FrontEndTextures"
+
+// scripts
+move_file override relative absolute "Install\Wheels\scripts\UnlimiterData\_RimBrands.ini" "scripts\UnlimiterData\_RimBrands.ini"

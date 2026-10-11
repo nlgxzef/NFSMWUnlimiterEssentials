@@ -1,0 +1,31 @@
+if file_exists absolute Languages\Labels.bin
+do
+new negate Languages\Labels.bin
+
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_NONE "PN_NEON_NONE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_RED "PN_NEON_RED"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN "PN_NEON_GREEN"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE "PN_NEON_BLUE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW "PN_NEON_YELLOW"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA "PN_NEON_AQUA"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE "PN_NEON_WHITE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE "PN_NEON_GRAPE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_PINK "PN_NEON_PINK"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_LIME "PN_NEON_LIME"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER "PN_NEON_LAVENDER"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD "PN_NEON_GOLD"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_RED_PULSE "PN_NEON_RED_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GREEN_PULSE "PN_NEON_GREEN_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_BLUE_PULSE "PN_NEON_BLUE_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_YELLOW_PULSE "PN_NEON_YELLOW_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_AQUA_PULSE "PN_NEON_AQUA_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_WHITE_PULSE "PN_NEON_WHITE_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GRAPE_PULSE "PN_NEON_GRAPE_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_PINK_PULSE "PN_NEON_PINK_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_LIME_PULSE "PN_NEON_LIME_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_LAVENDER_PULSE "PN_NEON_LAVENDER_PULSE"
+add_or_update_string Languages\Labels.bin STRBlocks GLOBAL AUTO PN_NEON_GOLD_PULSE "PN_NEON_GOLD_PULSE"
+
+delete Languages\Labels.bin
+else // do nothing
+end
